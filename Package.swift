@@ -11,6 +11,7 @@ let package = Package(
     targets: [
         .target(
             name: "Haneke",
-            path: "Haneke")
+            path: ""
+            publicHeadersPath: "")
     ]
 )
